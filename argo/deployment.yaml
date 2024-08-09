@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: my-container
-          image: nginx:latest
+          image: redis
           ports:
             - containerPort: 80
 ---
