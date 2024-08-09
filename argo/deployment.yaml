@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: my-container
-          image: nginx
+          image: gudduk7282/findgitusers:latest
           ports:
             - containerPort: 80
 ---
